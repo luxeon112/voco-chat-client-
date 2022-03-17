@@ -1,0 +1,32 @@
+[
+  {
+    "id": 1,
+    "username":"Juku Kalle",
+    "message": "Tere p'evast1",
+    "date": "2022-02-13"
+  },
+  {
+    "id": 2,
+    "username":"Juku Kalle",
+    "message": "Tere p'evast2",
+    "date": "2022-02-13"
+  },
+  {
+    "id": 3,
+    "username":"Juku Kalle",
+    "message": "Tere p'evast3",
+    "date": "2022-02-13"
+  },
+  {
+    "id": 4,
+    "username":"Juku Kalle",
+    "message": "Tere p'evast4",
+    "date": "2022-02-13"
+  },
+  {
+    "id": 4,
+    "username":"Juku Kalle",
+    "message": "Tere p'evast5",
+    "date": "2022-02-13"
+  }
+]
