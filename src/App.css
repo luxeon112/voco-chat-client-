@@ -5,15 +5,16 @@
 
 }
 
-.box-color{
+    .box-color{
 
-    font-family: arial;
-    font-size: 14px;
-    color: white;
-    width: 550px;
-    height: 500px;
-    background-color: black;
-    margin-top: 100px;
-    margin-left: 480px;
+        font-family: arial;
+        font-size: 14px;
+        color: white;
+        width: 550px;
+        height: 500px;
+        background-color: grey;
+        margin-top: 100px;
+        margin-left: 480px;
 
-   }
+
+       }

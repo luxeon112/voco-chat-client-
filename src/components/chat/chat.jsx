@@ -1,15 +1,15 @@
 import React from 'react';
 import data from "../../data.json";
-
-function Chat(props) {
+import Chatcard from "../Charcard/chatcard.jsx"
+function Chat() {
     return (
         <div className="box-color">
-            {data.map((item) => {
-                return (<chatcard
-                message={item.message}
-                author={item.username}
-                date={item.date} />)
-            })
+            {data.map(({message, username, date}) =>
+                (<Chatcard
+                message={message}
+                author={username}
+                date={date} />)
+            )
             }
 
         </div>

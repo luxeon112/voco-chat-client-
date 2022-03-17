@@ -1,13 +1,13 @@
 import React from 'react';
 
 
+function Chatcard(props) {
 
-function Chatcard({message, author, date}) {
     return (
         <div className="Chat">
-            <p>  {message}  </p>
-            <p>  {author}   </p>
-            <p>   {date}    </p>
+            <p>  {props.message}  </p>
+            <p>  {props.author}   </p>
+            <p>   {props.date}    </p>
         </div>
     );
 }
