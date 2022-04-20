@@ -1,3 +1,4 @@
+
 .class-test {
     height: 100vh;
     background: linear-gradient(120deg, rgba(9,9,121,1) 0%, rgba(9,9,121,0.9419117988992471) 35%, rgba(0,212,255,1) 100%);
@@ -5,16 +6,49 @@
 
 }
 
-    .box-color{
-
-        font-family: arial;
-        font-size: 14px;
-        color: white;
-        width: 550px;
-        height: 500px;
-        background-color: black;
-        margin-top: 100px;
-        margin: auto;
+.chatbox {
+    background-color: black;
+    height: 600px;
+    width: 600px;
+    padding-top: 2rem;
+    margin-left: 30rem;
+    border-radius: 5px;
 
 
-       }
+}
+
+
+.chattext {
+    background: #383838;
+    color: white;
+    text-align: left;
+    margin: 2rem;
+    border-radius: 8px;
+    height: 4rem;
+    font-size: 11px;
+
+}
+
+.input {
+    background-color: white;
+    height: 80px;
+    width: 600px;
+    color: black;
+    text-align: left;
+
+
+}
+
+.button {
+    width: 450px;
+    height: 75px;
+    padding-left: 1.5rem;
+    border-style: solid;
+    border-left-color: grey;
+    border-color: white;
+
+}
+
+.text{
+    color: grey;
+}

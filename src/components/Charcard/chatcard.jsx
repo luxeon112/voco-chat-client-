@@ -4,10 +4,10 @@ import React from 'react';
 function Chatcard(props) {
 
     return (
-        <div className="Chat">
+        <div className="chattext">
             <p>  {props.message}  </p>
-            <p>  {props.author}   </p>
-            <p>   {props.date}    </p>
+            <div class="text"> {props.author}{" "}
+              {props.date}    </div>
         </div>
     );
 }

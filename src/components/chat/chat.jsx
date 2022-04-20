@@ -6,9 +6,10 @@ function Chat() {
         <div className="box-color">
             {data.map(({message, username, date}) =>
                 (<Chatcard
-                message={message}
+                    message={message}
                 author={username}
-                date={date} />)
+                    date={date} />)
+
             )
             }
 
@@ -18,3 +19,4 @@ function Chat() {
 }
 
 export default Chat;
+
